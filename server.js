@@ -8,11 +8,8 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import cors from "cors";
 import path from "path";
-<<<<<<< HEAD
 import { fileURLToPath } from "url";
-=======
 import { fileURLTOpath } from 'url';
->>>>>>> cb1569e73056b5f095b090d005f5ce100383b92e
 
 //configure env
 dotenv.config();
@@ -26,10 +23,9 @@ connectDB();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-=======
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
->>>>>>> cb1569e73056b5f095b090d005f5ce100383b92e
+
 //rest object
 const app = express();
 
