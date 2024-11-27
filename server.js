@@ -17,7 +17,6 @@ dotenv.config();
 //databse config
 connectDB();
 
-<<<<<<< HEAD
 //esmodule fix
 
 const __filename = fileURLToPath(import.meta.url);
